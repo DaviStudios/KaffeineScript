@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'neutra';
+  src: url('neutra.otf');
+}
+
+body {
+  font-family: 'neutra';
+  background-color: #432812;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  cursor: pointer;
+}
+
+p:hover {
+  text-decoration: underline;
+}
+
+#docs, #download {
+  background-color: #261100;
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+#docs p, #download p {
+  margin: 5px 0;
+}

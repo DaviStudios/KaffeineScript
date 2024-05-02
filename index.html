@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KaffeineScript</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>KaffeineScript</h1>
+    <img style="display: block; margin: 0 auto; border: 2px solid black; cursor: pointer;" onclick='downloadKS()' src="ks.png" alt="KaffeineScript Logo">
+    <h2>A little, funny Esolang.</h2>
+    <div>
+      <p onclick="showD()">KEYWORDS <> </p>
+      <div id="docs" style="display: none;">
+        <p>drop (variable name) = (string, integer, table etc.) - Variable Declaration</p>
+        <p>int (variable name) - change an variable to an integer</p>
+        <p>str (variable name) - change an variable to an string</p>
+        <p>mug (function name) = [functions here, put them in strings] - Function Declaration</p>
+        <p>sugar (function name) - Run an function</p>
+        <p>spoon (variable name) = (new value) - Change an variable</p>
+        <p>splash (string, variable etc) - output text</p>
+      </div>
+    </div>
+    <div>
+      <p onclick="showDW()">DOWNLOAD & USAGE <> </p>
+      <div id="download" style="display: none;">
+        <p>1. Click on the KS logo </p>
+        <p>2. Unzip it, you will see the ks.exe file.</p>
+        <p>3. Put ks.exe in any directory you want </p>
+        <p>4. create a file with any name you want, make sure it uses the <a style='font-family: "ubuntu"'>.kaffe</a> extensions</p>
+        <p>5. open the terminal and input in the instruction on num 5. </p>
+        <p>6. <a style='font-family: "ubuntu"'>ks.exe</a> (your file name) </p>
+        <p>It may say that its dangerous, just because its unknown :)</p>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
